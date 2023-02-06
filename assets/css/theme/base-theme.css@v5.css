@@ -6287,14 +6287,14 @@ h2.block-title-2, .formBox h3, .block-title-2 {
 
     .navbar-logo {
         width: 100%;
-        position: absolute;
+        position: ;
         display: flex;
         left: 0px;
     }
 
     .navbar-brand {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
     }
 
         .navbar-brand > img {
