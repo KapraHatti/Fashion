@@ -6286,8 +6286,8 @@ h2.block-title-2, .formBox h3, .block-title-2 {
     }
 
     .navbar-logo {
-        width: 100%;
-        position: ;
+        width: 300%;
+        position: center ;
         display: flex;
         left: 0px;
     }
