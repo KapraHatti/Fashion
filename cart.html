@@ -1,0 +1,694 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	Kapra Hatti
+</title><meta name="robots" content="noindex, nofollow" /><meta name="robots" content="noindex, nofollow" /></head>
+<body class="" onload="load();">
+    <form name="form2" method="post" action="cart.aspx.html" id="form2">
+<div>
+
+</div>
+
+
+<script src="ScriptResource.axd@d=NJmAwtEo3Ipnlaxl6CMhvhqgMlHha8bUYd4UHjODHcOmBOVJ68RX1aUbxn47GP8I8Zxxd6txlrMKC-114jtwkrvTS6EMC-k-OoFBCFnqu3vvFtxc-fzR89ueTAGoX1Pt_VBjQxvDfiVGto8spYezAdfb442XKht976QOFNebc6A1&amp;t=4f7d5f1" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var PageMethods = function() {
+PageMethods.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+PageMethods.prototype = {
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return PageMethods._staticInstance.get_path();},
+UpdateCart:function(ProductID,Quantity,ColorID,SizeID,CustomSize,WebID,AddonIDs,OrderDetailID,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'UpdateCart',false,{ProductID:ProductID,Quantity:Quantity,ColorID:ColorID,SizeID:SizeID,CustomSize:CustomSize,WebID:WebID,AddonIDs:AddonIDs,OrderDetailID:OrderDetailID},succeededCallback,failedCallback,userContext); }}
+PageMethods.registerClass('PageMethods',Sys.Net.WebServiceProxy);
+PageMethods._staticInstance = new PageMethods();
+PageMethods.set_path = function(value) { PageMethods._staticInstance.set_path(value); }
+PageMethods.get_path = function() { return PageMethods._staticInstance.get_path(); }
+PageMethods.set_timeout = function(value) { PageMethods._staticInstance.set_timeout(value); }
+PageMethods.get_timeout = function() { return PageMethods._staticInstance.get_timeout(); }
+PageMethods.set_defaultUserContext = function(value) { PageMethods._staticInstance.set_defaultUserContext(value); }
+PageMethods.get_defaultUserContext = function() { return PageMethods._staticInstance.get_defaultUserContext(); }
+PageMethods.set_defaultSucceededCallback = function(value) { PageMethods._staticInstance.set_defaultSucceededCallback(value); }
+PageMethods.get_defaultSucceededCallback = function() { return PageMethods._staticInstance.get_defaultSucceededCallback(); }
+PageMethods.set_defaultFailedCallback = function(value) { PageMethods._staticInstance.set_defaultFailedCallback(value); }
+PageMethods.get_defaultFailedCallback = function() { return PageMethods._staticInstance.get_defaultFailedCallback(); }
+PageMethods.set_enableJsonp = function(value) { PageMethods._staticInstance.set_enableJsonp(value); }
+PageMethods.get_enableJsonp = function() { return PageMethods._staticInstance.get_enableJsonp(); }
+PageMethods.set_jsonpCallbackParameter = function(value) { PageMethods._staticInstance.set_jsonpCallbackParameter(value); }
+PageMethods.get_jsonpCallbackParameter = function() { return PageMethods._staticInstance.get_jsonpCallbackParameter(); }
+PageMethods.set_path("cart.aspx");
+PageMethods.UpdateCart= function(ProductID,Quantity,ColorID,SizeID,CustomSize,WebID,AddonIDs,OrderDetailID,onSuccess,onFailed,userContext) {PageMethods._staticInstance.UpdateCart(ProductID,Quantity,ColorID,SizeID,CustomSize,WebID,AddonIDs,OrderDetailID,onSuccess,onFailed,userContext); }
+//]]>
+</script>
+
+        
+
+<link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/vendor/combine.css@v35.css" rel="stylesheet" type="text/css">
+
+
+
+<link href="assets/css/theme/base-theme.css@v5.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme/1431.css@162510.css" rel="stylesheet" type="text/css">
+
+
+
+
+  
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+
+
+<div class="mobile-menu-overlay"></div>
+<div class="template">
+    <div class="navbar navbar-fixed-top megamenu header-center custom" role="navigation">
+
+<div class="navbar-top">
+    <div class="container">
+
+            <div class="col-lg-7  col-md-7 col-sm-7 col-xs-6">
+                <div class="pull-left ">
+                    <div data-control-name="header-generalmenu"></div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <div class="pull-right">
+                    <div data-control-name="header-usermenu"></div>
+                </div>
+            </div>
+
+    </div>
+</div>
+ 
+<div class="w100 brandWrap">
+    <div class="container">
+	
+		<div class="col-md-4 hidden-sm no-padding">
+			<!-- social-icons-desktop -->
+            <div class="hidden-xs">
+                <div data-control-name="header-socialicons"></div>
+            </div> 
+		</div>
+		
+		<div class="col-md-4 col-sm-4 col-xs-12 no-padding">
+			<!-- logo/menu-btn-mbl/cart-btn-mbl -->
+        <div class="navbar-header">
+		<!-- menu-btn-mbl -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only"> Toggle navigation </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> </button>
+            <!-- cart-btn-mbl -->
+			<a class="navbar-toggle" href="cart.aspx.html"> <i class="fa fa-shopping-cart"> </i> <span class="cartRespons">Cart</span> </a>
+            <!-- logo -->
+			<div data-control-name="header-logo"></div>
+        </div>
+		</div>
+		
+		<div class="col-md-4 col-sm-8 col-xs-12 no-padding">
+			<!-- search-box/cart-btn-desktop -->
+        <div class="nav navbar-nav navbar-right">
+            <div data-control-name="header-minicart" class="dropdown cartMenu pull-right  hidden-xs"></div>
+            <div class="search-box static-search">
+                    <div class="input-group">
+                        <div data-control-name="header-search"></div>
+                    </div>
+            </div>
+        </div> 
+		</div>
+    </div>
+</div>  
+
+<div class="w100 menuWrap ">
+    <div class="container">
+ 
+		<!-- menu/social-icons -->
+        <div class="navbar-collapse collapse">
+			<!-- menu -->
+            <div data-control-name="header-topmenu"></div> 
+			
+        </div>
+         
+    </div>   
+</div>
+      
+</div>
+
+    <div style="display: none">
+        
+
+        <div name="header-logo"><a href="index.html" id="header1_Menu_anLogo" class="navbar-brand" title="Kapra Hatti">
+            <img src="images/logo/kaprahatti-logo-63889010223092734.png" id="header1_Menu_imgLogo" class="LogoImage" alt="Kapra Hatti" /></a>
+                    
+        </div>
+
+        <div id="header1_Menu_divTopMenu" name="header-topmenu"><ul class="nav navbar-nav"><li class="link-1"><a href="index.html">Home</a></li><li class="dropdown megamenu-2 megamenu-80width"><a data-toggle="dropdown" class="dropdown-toggle" href="products.html">Products</a><ul class="dropdown-menu">          
+<li class="megamenu-content">          
+<ul class="col-lg-3 col-sm-3 col-md-3 unstyled"><li class="no-border parent"><a href="men.html">Men</a></li><li class="child"><a href="men/formal-wear.html">Formal Wear</a></li><li class="child"><a href="men/jackets.html">Jackets</a></li><li class="child"><a href="men/jeans.html">Jeans</a></li><li class="child"><a href="men/polos.html">Polos</a></li><li class="child"><a href="men/sweaters.html">Sweaters</a></li><li class="child"><a href="men/t-shirts.html">T-Shirts</a></li></ul>          
+<ul class="col-lg-3 col-sm-3 col-md-3 unstyled"><li class="no-border parent"><a href="women.html">Women</a></li><li class="child"><a href="women/coats.html">Coats</a></li><li class="child"><a href="women/dresses.html">Dresses</a></li><li class="child"><a href="women/jeans.html">Jeans</a></li><li class="child"><a href="women/skirts.html">Skirts</a></li><li class="child"><a href="women/sweaters.html">Sweaters</a></li><li class="child"><a href="women/tops.html">Tops</a></li></ul>          
+<ul class="col-lg-3 col-sm-3 col-md-3 unstyled"><li class="no-border parent"><a href="shoes.html">Shoes</a></li><li class="child"><a href="shoes/comfort-shoes.html">Comfort Shoes</a></li><li class="child"><a href="shoes/dress-shoes.html">Dress Shoes</a></li><li class="child"><a href="shoes/loafers.html">Loafers</a></li><li class="child"><a href="shoes/sandals.html">Sandals</a></li><li class="child"><a href="shoes/slippers.html">Slippers</a></li><li class="child"><a href="shoes/sneakers.html">Sneakers</a></li><li class="no-border parent"><a href="handbags.html">Handbags</a></li><li class="child"><a href="handbags/backpacks.html">Backpacks</a></li><li class="child"><a href="handbags/bucket-bags.html">Bucket Bags</a></li><li class="child"><a href="handbags/cross-body-bags.html">Cross body Bags</a></li><li class="child"><a href="handbags/diaper-bags.html">Diaper Bags</a></li><li class="child"><a href="handbags/mini-bags.html">Mini Bags</a></li><li class="child"><a href="handbags/wallets.html">Wallets</a></li></ul>          
+<ul class="col-lg-3 col-sm-3 col-md-3 unstyled"><li class="no-border parent"><a href="accessories.html">Accessories</a></li><li class="child"><a href="accessories/belts.html">Belts</a></li><li class="child"><a href="accessories/hats.html">Hats</a></li><li class="child"><a href="accessories/jewellery.html">Jewellery</a></li><li class="child"><a href="accessories/scarves.html">Scarves</a></li><li class="child"><a href="accessories/sunglasses.html">Sunglasses</a></li><li class="child"><a href="accessories/watches.html">Watches</a></li><li class="no-border parent"><a href="beauty.html">Beauty</a></li><li class="child"><a href="beauty/bath-body.html">Bath & Body</a></li><li class="child"><a href="beauty/fragrance.html">Fragrance</a></li><li class="child"><a href="beauty/hair-brushes.html">Hair Brushes</a></li><li class="child"><a href="beauty/makeup.html">Makeup</a></li><li class="child"><a href="beauty/nails.html">Nails</a></li><li class="child"><a href="beauty/skincare.html">Skincare</a></li></ul></ul></li><li class="dropdown menu-list megamenu-20width"><a data-toggle="dropdown" class="dropdown-toggle" href="women.html">Women</a><ul class="dropdown-menu">        
+<li class="megamenu-content">    
+<ul class="col-lg-12 col-sm-12 col-md-12 unstyled"><li><a href="women/coats.html">Coats</a></li><li><a href="women/dresses.html">Dresses</a></li><li><a href="women/jeans.html">Jeans</a></li><li><a href="women/skirts.html">Skirts</a></li><li><a href="women/sweaters.html">Sweaters</a></li><li><a href="women/tops.html">Tops</a></li></ul></li></ul></li><li class="dropdown menu-list megamenu-20width"><a data-toggle="dropdown" class="dropdown-toggle" href="accessories.html">Accessories</a><ul class="dropdown-menu">        
+<li class="megamenu-content">    
+<ul class="col-lg-12 col-sm-12 col-md-12 unstyled"><li><a href="accessories/belts.html">Belts</a></li><li><a href="accessories/hats.html">Hats</a></li><li><a href="accessories/jewellery.html">Jewellery</a></li><li><a href="accessories/scarves.html">Scarves</a></li><li><a href="accessories/sunglasses.html">Sunglasses</a></li><li><a href="accessories/watches.html">Watches</a></li></ul></li></ul></li><li class="dropdown menu-list megamenu-20width"><a data-toggle="dropdown" class="dropdown-toggle" href="beauty.html">Beauty</a><ul class="dropdown-menu">        
+<li class="megamenu-content">    
+<ul class="col-lg-12 col-sm-12 col-md-12 unstyled"><li><a href="beauty/bath-body.html">Bath & Body</a></li><li><a href="beauty/fragrance.html">Fragrance</a></li><li><a href="beauty/hair-brushes.html">Hair Brushes</a></li><li><a href="beauty/makeup.html">Makeup</a></li><li><a href="beauty/nails.html">Nails</a></li><li><a href="beauty/skincare.html">Skincare</a></li></ul></li></ul></li></ul><div class="mblNav-LoginSignup" style=""><div class="links"><a class="" href="changepassword.html"><i class="glyphicon glyphicon-user "></i> Login / Sign up</a></div></div></div>
+        <div id="header1_Menu_divGeneralMenu" name="header-generalmenu"><ul class="userMenu hidden-xs"><li><a href="about.html" rel="nofollow" style="z-index:10">About Kapra Hatti</a></li><li><a href="contact.html" rel="nofollow" style="z-index:10">Feedbacks & Suggestions</a></li><li><a href="contact.html" rel="nofollow" style="z-index:10">Contact Us</a></li><li><a href="faq.html" rel="nofollow" style="z-index:10">FAQs</a></li><li><a href="policy.html" rel="nofollow" style="z-index:10">Policies</a></li></ul></div>
+        <div id="header1_Menu_divSocialIcon" class="social-icon" name="header-socialicons">
+            
+                    <a href="https://kaprahatti.webx.pk/Controls/#" id="header1_Menu_rptSocialIcon_ctl00_anSocialIcon" class="fa fa-facebook" target="_blank" title="Facebook"></a>
+                
+                    <a href="https://kaprahatti.webx.pk/Controls/#" id="header1_Menu_rptSocialIcon_ctl01_anSocialIcon" class="fa fa-twitter" target="_blank" title="Twitter"></a>
+                
+                    <a href="https://kaprahatti.webx.pk/Controls/#" id="header1_Menu_rptSocialIcon_ctl02_anSocialIcon" class="fa fa-google-plus" target="_blank" title="Google Plus"></a>
+                
+                    <a href="https://kaprahatti.webx.pk/Controls/#" id="header1_Menu_rptSocialIcon_ctl03_anSocialIcon" class="fa fa-linkedin" target="_blank" title="LinkedIn"></a>
+                
+                    <a href="https://kaprahatti.webx.pk/Controls/#" id="header1_Menu_rptSocialIcon_ctl04_anSocialIcon" class="fa fa-pinterest" target="_blank" title="Pinterest"></a>
+                
+                    <a href="https://kaprahatti.webx.pk/Controls/#" id="header1_Menu_rptSocialIcon_ctl05_anSocialIcon" class="fa fa-tumblr" target="_blank" title="Tumblr"></a>
+                
+        </div>
+
+        
+        <ul class="userMenu" name="header-usermenu">
+            <li id="header1_UserMenu_liAccount" class="dropdown">
+                <a href="cart.html#" data-toggle="dropdown" class="dropdown-toggle"><span class="hidden-xs">My Account <b class="caret"></b></span><i class="glyphicon glyphicon-user hide visible-xs "></i></a>
+                <ul class="dropdown-menu optionMenu">
+                    <li><a href="account.html">Profile</a></li>
+                    <li><a href="orderlist.html">Orders History</a></li>
+                    <li><a href="changepassword.html">Change Password</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="changepassword.html" id="header1_UserMenu_anLogin"><span id="header1_UserMenu_spnLogin" class="hidden-xs">Log in</span> <i class="glyphicon glyphicon-log-in hide visible-xs "></i></a></li>
+            <li id="header1_UserMenu_liSignup" class="hidden-xs"><a href="signup.html">Create Account </a></li>
+            <li id="header1_UserMenu_liCurrency">
+                <select name="header1$UserMenu$ddlCurrency" id="header1_UserMenu_ddlCurrency" class="form-control">
+	<option selected="selected" value="1">PKR</option>
+	<option value="3">GBP</option>
+	<option value="2">USD</option>
+
+</select></li>
+        </ul>
+
+        
+<div class="dropdown cartMenu" name="header-minicart"> 
+<div id="header1_minicart1_UpdatePanel1">
+	
+<input type="hidden" name="header1$minicart1$hdMiniCartUpdated" id="header1_minicart1_hdMiniCartUpdated" value="0" />
+<input type="hidden" name="header1$minicart1$hdAddon" id="header1_minicart1_hdAddon" />
+
+<a href="cart.html#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-shopping-bag"></i> 
+<span class="cartRespons"> Cart <span id="header1_minicart1_spnCartAmount"></span></span><b class="caret"></b></a>
+
+<div id="header1_minicart1_divEmptyCart" class="dropdown-menu col-lg-4 col-xs-12 col-md-4">
+<div class="emptyCart"><i class="icon-x"></i> Your shopping cart is empty.</div>
+</div>
+
+
+<input type="submit" name="header1$minicart1$btnRefreshCart" value="" id="header1_minicart1_btnRefreshCart" style="display:none" />
+
+</div>
+
+</div>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function (event) {
+        SetCartCount();
+        CartCountLoad();
+    });
+    
+    function CartCountLoad() {
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(SetCartCount);
+    }
+
+    function RefreshCart() {
+        document.getElementById('header1_minicart1_btnRefreshCart').click();
+    }
+
+    function SetCartScrollBar() {
+        $(".minicart-scroll").mCustomScrollbar({
+            advanced: { updateOnContentResize: true },
+            scrollButtons: { enable: false },
+            mouseWheelPixels: "200",
+            theme: "dark-2"
+        });
+    }
+
+    function SetCartCount() {
+        $('.navbar-toggle .fa-shopping-cart').html('');
+
+        var CartCount = $('#header1_minicart1_spnCartCount').html();
+
+        if (CartCount != null && CartCount != '' && CartCount != '0') {
+            $('.navbar-toggle .fa-shopping-cart').html('<b id="spnCartCountResp" class="spnProductCountResp">' + CartCount + '</b>');
+        }
+    }
+</script>
+        
+<script type="text/javascript">
+
+    function Validate() {
+        var txtBox = document.getElementById('header1_search1_txtSearch');
+
+        if (txtBox.value != '') {
+            return true;
+        }
+        return false;
+    }
+
+</script>
+<div name="header-search">
+<input name="header1$search1$txtSearch" type="text" id="header1_search1_txtSearch" class="search-input" placeholder="Search" />
+<a onclick="return Validate();" id="header1_search1_btnSearch" class="btn-nobg search-btn" href="javascript:__doPostBack(&#39;header1$search1$btnSearch&#39;,&#39;&#39;)"></a>
+</div>
+
+    </div>
+</div>
+
+
+
+        <div class="container main-container headerOffset">
+
+            <div id="UpdatePanel1">
+	
+                    <input type="hidden" name="hdCartUpdated" id="hdCartUpdated" value="0" />
+                    <input type="hidden" name="hdTotalRows" id="hdTotalRows" value="0" />
+                    <input type="hidden" name="hdAddon" id="hdAddon" />
+                    <div class="row">
+                        <div class="breadcrumbDiv col-lg-12">
+                            <ul class="breadcrumb">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active">Cart</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-9 col-md-9 col-sm-7">
+                            <h1 class="section-title-inner"><span>Shopping Cart </span></h1>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-5 rightSidebar hidden-xs">
+                        </div>
+                    </div>
+
+                    <div id="divEmptyCart" class="row">
+                        <div>Your shopping cart is empty.</div>
+                    </div>
+
+                    
+                    <div style="clear: both"></div>
+                
+</div>
+        </div>
+
+        
+
+<div class="gap"></div>
+<footer>
+
+    <div class="template">
+        <div class="footer">  <div class="container">  <div class="row">  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">  <h3> Contact </h3>  <div data-control-name="footer-contact"></div>  </div>    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 footerLinks">  <div data-control-name="footer-menu"></div>  </div>    <div style="clear:both" class="hide visible-xs"></div>  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">  <h3> Stay in touch </h3>  <ul>  <li>  <div data-control-name="footer-newsletter"></div>  </li>  </ul>  <div data-control-name="footer-socialicons"></div>  </div>  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center margin-top-20">  <div data-control-name="footer-content"></div>  </div>  </div>  </div>  </div>     <div class="footer-bottom">  <div class="container">  <div class="row">  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  <div class="pull-left">      <div data-control-name="footer-copyrights"></div>  </div>  </div>  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  <div class="text-center">      <div data-control-name="footer-paymentmethods"></div>  </div>  </div>  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">  <div class="pull-right">      <div data-control-name="footer-poweredby"></div>  </div>  </div>  </div>  </div>  </div>
+
+        <div style="display: none">
+
+            <ul name="footer-contact" class="contactBox">
+                <li><i class="fa fa-map-marker"></i><a class="inline"></a></li>
+                <li><i class="fa fa-phone"></i><a class="inline">03020725315</a></li>
+                <li><i class="fa fa-envelope-o"></i><a class="inline" href="cdn-cgi/l/email-protection.html#dbb0baaba9bab3baafafb29bbcb6bab2b7f5b8b4b6"><span class="__cf_email__" data-cfemail="abc0cadbd9cac3cadfdfc2ebccc6cac2c785c8c4c6">[email&#160;protected]</span></a></li>
+            </ul>
+
+            <div id="footer1_FooterContent_divFooterContent" name="footer-content" class="footer-content">Need help? Call us at 03020725315 or write to us <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="dab1bbaaa8bbb2bbaeaeb39abdb7bbb3b6f4b9b5b7">[email&#160;protected]</a><br />
+  Online prices and selection generally match our retail store, but may vary. 
+  Prices and offers are subject to change. <br /><br />
+  Copyright © 2023 Kapra Hatti. All rights reserved. <br /><br /></div>
+
+            <div id="footer1_FooterContent_divFooterMenu" name="footer-menu"><div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><h3>Products</h3><ul><li><a href="women.html">Women</a></li><li><a href="men.html">Men</a></li><li><a href="handbags.html">Handbags</a></li><li><a href="beauty.html">Beauty</a></li></ul></div><div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><h3>Account</h3><ul><li><a href="signup.html">Sign Up</a></li><li><a href="changepassword.html">Log In</a></li><li><a href="account.html">My Account</a></li><li><a href="cart.html">Shopping Cart</a></li></ul></div><div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><h3>New Heading</h3><ul><li><a href="about.html">About Us</a></li><li><a href="policy.html">Policies</a></li><li><a href="faq.html">FAQs</a></li><li><a href="downloads.html">Downloads</a></li></ul></div></div>
+
+            <div name="footer-newsletter" class="input-append newsLatterBox text-center">
+                <div id="footer1_FooterContent_upNewsletter">
+	
+                        <input name="footer1$FooterContent$txtNewsletterEmail" type="text" id="footer1_FooterContent_txtNewsletterEmail" class="full text-center" placeholder="Email Address" />
+                        <a onclick="return NewsletterValidate(&#39;footer1_FooterContent_txtNewsletterEmail&#39;);" id="footer1_FooterContent_btnSubscribe" class="btn bg-gray" href="javascript:__doPostBack(&#39;footer1$FooterContent$btnSubscribe&#39;,&#39;&#39;)">Subscribe <i class="fa fa-long-arrow-right"></i></a>
+                        
+                    
+</div>
+            </div>
+
+            <div id="footer1_FooterContent_divSocialIcon" name="footer-socialicons" class="social">
+                
+                        <a href="https://kaprahatti.webx.pk/Controls/#" id="footer1_FooterContent_rptSocialIcon_ctl00_anSocialIcon" class="fa fa-facebook" target="_blank" title="Facebook"></a>
+                    
+                        <a href="https://kaprahatti.webx.pk/Controls/#" id="footer1_FooterContent_rptSocialIcon_ctl01_anSocialIcon" class="fa fa-twitter" target="_blank" title="Twitter"></a>
+                    
+                        <a href="https://kaprahatti.webx.pk/Controls/#" id="footer1_FooterContent_rptSocialIcon_ctl02_anSocialIcon" class="fa fa-google-plus" target="_blank" title="Google Plus"></a>
+                    
+                        <a href="https://kaprahatti.webx.pk/Controls/#" id="footer1_FooterContent_rptSocialIcon_ctl03_anSocialIcon" class="fa fa-linkedin" target="_blank" title="LinkedIn"></a>
+                    
+                        <a href="https://kaprahatti.webx.pk/Controls/#" id="footer1_FooterContent_rptSocialIcon_ctl04_anSocialIcon" class="fa fa-pinterest" target="_blank" title="Pinterest"></a>
+                    
+                        <a href="https://kaprahatti.webx.pk/Controls/#" id="footer1_FooterContent_rptSocialIcon_ctl05_anSocialIcon" class="fa fa-tumblr" target="_blank" title="Tumblr"></a>
+                    
+            </div>
+
+            <p name="footer-copyrights">Copyright &copy; Kapra Hatti 2023. All rights reserved.</p>
+
+            <div name="footer-paymentmethods" class="paymentMethodImg">
+                <img height="30" class="pull-right" src="assets/images/site/payment/master_card.png" alt="img">
+                <img height="30" class="pull-right" src="assets/images/site/payment/visa_card.png" alt="img"><img height="30" class="pull-right" src="assets/images/site/payment/paypal.png" alt="img">
+                <img height="30" class="pull-right" src="assets/images/site/payment/american_express_card.png" alt="img">
+                <img height="30" class="pull-right" src="assets/images/site/payment/discover_network_card.png" alt="img">
+                <img height="30" class="pull-right" src="assets/images/site/payment/google_wallet.png" alt="img"></div>
+
+            <div name="footer-poweredby" id="divPowered" class="powered-by">
+                <div id="footer1_FooterContent_divPoweredBy">
+                    <p>Powered by <a href="http://www.webx.pk" title="Web Design & Development by Webx">Webx</a> &reg;</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery/jquery-1.10.1.min.js"></script> 
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/combine.js@v25"></script>
+<script src="assets/js/script.js@v25"></script>
+
+
+
+<script>
+    function trimSpaces(str) {
+        if (str != null) {
+            var i; for (i = 0; i < str.length; i++) {
+                if (str.charAt(i) != " ") { str = str.substring(i, str.length); break; }
+            }
+            for (i = str.length - 1; i >= 0; i--) { if (str.charAt(i) != " ") { str = str.substring(0, i + 1); break; } }
+            if (str.charAt(0) == " ") { return ""; } else { return str; }
+        }
+    }
+
+    function emailCheck(str) {
+        var at = "@"
+        var dot = "."
+        var lat = str.indexOf(at)
+        var lstr = str.length
+        var ldot = str.indexOf(dot)
+
+        if (str.indexOf(at) == -1) { return false }
+        if (str.indexOf(at) == -1 || str.indexOf(at) == 0 || str.indexOf(at) == lstr - 1) { return false }
+        if (str.indexOf(dot) == -1 || str.indexOf(dot) == 0 || str.indexOf(dot, lstr - 1) == lstr - 1) { return false }
+        if (str.indexOf(at, (lat + 1)) != -1) { return false }
+        if (str.substring(lat - 1, lat) == dot || str.substring(lat + 1, lat + 2) == dot) { return false }
+        if (str.indexOf(dot, (lat + 2)) == -1) { return false }
+        if (str.indexOf(" ") != -1) { return false }
+        return true
+    }
+
+    function NewsletterValidate(ID) {
+
+        txtNewsletterEmail = document.getElementById(ID);
+
+        if (txtNewsletterEmail.value == "") {
+            alert('Please enter your email address');
+            txtNewsletterEmail.focus();
+            return (false);
+        }
+
+        if (emailCheck(txtNewsletterEmail.value) == false) {
+            alert('Please provide a valid email address');
+            txtNewsletterEmail.focus();
+            return (false);
+        }
+        return (true);
+    }
+
+</script>
+
+        <div id="UpdateProgress_UpdateProgress1" style="display:none;">
+	
+    <div class="loading-container">
+        <div class="loading-box">Please wait...</div>
+    </div>
+    
+</div>
+
+
+        
+            <script>   
+
+                function load() {
+                    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+                    OnLoadHandler();
+                }
+
+                function EndRequestHandler() {
+                    OnLoadHandler();
+                    RefreshCartData();
+                    RefreshMiniCart();
+                }
+
+                function OnLoadHandler() {
+
+                }
+
+                function RefreshCartData() {
+                    hdMiniCartUpdated = document.getElementById('header1_minicart1_hdMiniCartUpdated');
+
+                    if (hdMiniCartUpdated != null && hdMiniCartUpdated.value == '1') {
+                        hdMiniCartUpdated.value = '0';
+                        document.getElementById('btnLoadData').click();
+                    }
+                }
+
+                function RefreshMiniCart() {
+                    hdCartUpdated = document.getElementById('hdCartUpdated');
+
+                    if (hdCartUpdated != null && hdCartUpdated.value == '1') {
+                        hdCartUpdated.value = '0';
+                        RefreshCart();
+                    }
+                }
+
+                function isNumberKey(evt) {
+                    var charCode = (evt.which) ? evt.which : evt.keyCode;
+                    if (charCode > 31 && (charCode < 48 || charCode > 57))
+                        return false;
+                    return true;
+                }
+
+                function addCommas(nStr) {
+                    nStr += '';
+                    x = nStr.split('.');
+                    x1 = x[0];
+                    x2 = x.length > 1 ? '.' + x[1] : '';
+                    var rgx = /(\d+)(\d{3})/;
+                    while (rgx.test(x1)) {
+                        x1 = x1.replace(rgx, '$1' + ',' + '$2');
+                    }
+                    return x1 + x2;
+                }
+                function CurrencyFormatted(amount) {
+                    var i = parseFloat(amount);
+                    if (isNaN(i)) { i = 0.00; }
+                    var minus = '';
+                    if (i < 0) { minus = '-'; }
+                    i = Math.abs(i);
+                    i = parseInt((i + .005) * 100);
+                    i = i / 100;
+                    s = new String(i);
+                    if (s.indexOf('.') < 0) { s += '.00'; }
+                    if (s.indexOf('.') == (s.length - 2)) { s += '0'; }
+                    s = minus + s;
+                    return s;
+                }
+                function UpdatePrice(OldQuantity, UnitPrice, RowNo) {
+                    var TotalPriceid;
+                    var ProductID;
+                    var Quantityid;
+                    var Quantity = 0;
+                    var ColorID;
+                    var SizeID;
+                    var CustomSizeID;
+                    var OldQuantityID;
+                    var Color = 0;
+                    var Size = 0;
+                    var CustomSize = 0;
+                    var Product = 0;
+                    var UnitPriceID;
+                    var OrderFromID;
+                    var AddonIds;
+                    var Addons = 0;
+                    var OrderDetailID = 0;
+                    var OrderDetail = 0;
+                    var OldQuantity = 0;
+
+
+                    if (RowNo < 10) {
+                        TotalPriceid = "rptCart_ctl0" + RowNo + "_spnTotalPrice";
+                        Quantityid = "rptCart_ctl0" + RowNo + "_txtQuantity";
+                        ProductID = "rptCart_ctl0" + RowNo + "_hdProductID";
+                        UnitPriceID = "rptCart_ctl0" + RowNo + "_spnUnitPrice";
+                        OrderFromID = "rptCart_ctl0" + RowNo + "_hdOrderFrom";
+                        ColorID = "rptCart_ctl0" + RowNo + "_hdColorID";
+                        SizeID = "rptCart_ctl0" + RowNo + "_hdSizeID";
+                        CustomSizeID = "rptCart_ctl0" + RowNo + "_hdCustomSize";
+                        AddonIds = "rptCart_ctl0" + RowNo + "_hdAddonIds";
+                        OrderDetailID = "rptCart_ctl0" + RowNo + "_hdOrderDetailID";
+                        OldQuantityID = "rptCart_ctl0" + RowNo + "_hdQuantity";
+                    }
+                    else {
+                        TotalPriceid = "rptCart_ctl" + RowNo + "_spnTotalPrice";
+                        Quantityid = "rptCart_ctl" + RowNo + "_txtQuantity";
+                        ProductID = "rptCart_ctl" + RowNo + "_hdProductID";
+                        UnitPriceID = "rptCart_ctl" + RowNo + "_spnUnitPrice";
+                        OrderFromID = "rptCart_ctl" + RowNo + "_hdOrderFrom";
+                        ColorID = "rptCart_ctl" + RowNo + "_hdColorID";
+                        SizeID = "rptCart_ctl" + RowNo + "_hdSizeID";
+                        CustomSizeID = "rptCart_ctl" + RowNo + "_hdCustomSize";
+                        AddonIds = "rptCart_ctl" + RowNo + "_hdAddonIds";
+                        OrderDetailID = "rptCart_ctl" + RowNo + "_hdOrderDetailID";
+                        OldQuantityID = "rptCart_ctl" + RowNo + "_hdQuantity";
+                    }
+
+                    Quantity = document.getElementById(Quantityid).value;
+                    Product = document.getElementById(ProductID).value;
+                    Color = document.getElementById(ColorID).value;
+                    Size = document.getElementById(SizeID).value;
+                    CustomSize = document.getElementById(CustomSizeID).value;
+                    Addons = document.getElementById(AddonIds).value;
+                    OrderDetail = document.getElementById(OrderDetailID).value;
+                    OldQuantity = document.getElementById(OldQuantityID).value;
+
+
+                    if (Quantity <= 0) //setting textbox value to 1 if quantity is less than or equal to zero
+                    {
+                        //document.getElementById(Quantityid).value = 1;
+                    }
+
+                    if (Quantity == '') {
+                        Quantity = 0;
+                    }
+
+                    //Quantity = Quantity - OldQuantity;
+                    document.getElementById(OldQuantityID).value = document.getElementById(Quantityid).value; //setting old quantity value to current textbox value
+
+                    document.getElementById(UnitPriceID).innerHTML = addCommas(CurrencyFormatted(UnitPrice));
+
+                    var totalPrice = (document.getElementById(Quantityid).value * UnitPrice);
+                    document.getElementById(TotalPriceid).innerHTML = addCommas(CurrencyFormatted(totalPrice));
+
+                    var WebID = 63889;
+
+                    PageMethods.UpdateCart(Product, Quantity, Color, Size, CustomSize, WebID, Addons, OrderDetail, CallSuccess, CallFailed);
+                    TotalPrice();
+                }
+
+                function CallSuccess(res, userContext, methodName) {
+                    hdCartUpdated = document.getElementById('hdCartUpdated');
+                    hdCartUpdated.value = '1';
+                    document.getElementById('btnLoadData').click();
+                }
+
+                // alert message on some failure
+                function CallFailed(error, userContext, methodName) {
+                    alert(error.get_message());
+                }
+
+                function TotalPrice() {
+                    var TotalRows = document.getElementById('hdTotalRows').value;
+                    var TotalPrice = 0;
+                    var Quantity = 0;
+                    var TotalProducts = 0;
+                    var TotalItems = 0;
+
+                    var UnitPriceID;
+                    var Quantityid;
+                    var TotalPriceID;
+
+                    for (i = 1; i <= TotalRows - 1; i++) {
+                        if (i < 10) {
+                            Quantityid = "rptCart_ctl0" + i + "_txtQuantity";
+                            UnitPriceID = "rptCart_ctl0" + i + "_spnUnitPrice";
+                        }
+                        else {
+                            Quantityid = "rptCart_ctl" + i + "_txtQuantity";
+                            UnitPriceID = "rptCart_ctl" + i + "_spnUnitPrice";
+                        }
+
+                        if (document.getElementById(Quantityid).value == '')
+                            Quantity = 0;
+                        else
+                            Quantity = document.getElementById(Quantityid).value;
+
+                        TotalPrice = parseFloat(TotalPrice) + (parseFloat((Quantity)) * parseFloat((document.getElementById(UnitPriceID).innerHTML).replace(",", "")));
+
+                        TotalProducts = TotalProducts + 1;
+                        TotalItems = TotalItems + parseFloat(Quantity);
+                    }
+
+                    if (TotalRows < 10) {
+                        TotalPriceID = 'rptCart_ctl0' + TotalRows + '_spnOrderTotalPrice';
+                    }
+                    else {
+                        TotalPriceID = 'rptCart_ctl' + TotalRows + '_spnOrderTotalPrice';
+                    }
+
+                    document.getElementById(TotalPriceID).innerHTML = addCommas(CurrencyFormatted(TotalPrice));
+
+                    document.getElementById('spnOrderTotalAmount').innerHTML = addCommas(CurrencyFormatted(TotalPrice));
+                    document.getElementById('spnTotalProducts').innerHTML = TotalProducts;
+                    document.getElementById('spnTotalItems').innerHTML = TotalItems;
+                }
+            </script>
+
+        
+    
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2204E409" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="I62kmpNQHlT2LByFQfZnLSLvOqwPigsaU1EFc7svySoKEDzVYKWo8pmfYz6iudnr5M99IP7XC2xpMcmdobqL/dkLvfQO8411A7UcS5ZdrFR9Algq03BeaRhAd95NFxyvLl2rn+u1N0fw/QWzltZJL/EkQdK8uMRHEfd1tWBGl+r1BMZCv/U7UdHpjYeVFjeyLC6WRWpm91/VU3bD9NW8nhAsCFehArQPjLTzMbxhlfCMoQ3D+8av5gAysNF95zzNUxtiXUW/6PEMQgogu9qPrWxfPWF+bAaWozlE4Hzcsn3fSyrVJKwc+m7fwxf4x4lytZ5d3xOTdvc0QPviMe4ZaHVVREeZ6trDWH5bHWuZ2KOU2vRjmU0f03h79wkc2s5O" />
+</div><!--ex:scripts-start-->
+
+
+
+
+
+
+<!--ex:scripts-end-->
+
+
+  <!-- Trial Cookie -->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendor/trialcookie.css"/>
+  <script src="assets/js/vendor/trialcookie.js@v1"></script>
+
+<div class="TrialMessageContainer" id="TrialMessageContainer">
+    <div class="cookieTitle"><a>Trial Website</a></div>
+    <div class="cookieDesc"><p>This is a trial website built with Webx Ecommerce. If you are the website owner, please activate your account on your own domain to accept real orders. </p></div>
+    <div class="cookieButton"><a onclick="trialcookieDismiss();">Understood</a></div>
+</div>
+
+
+<!--ex:scripts-start-->
+
+
+<!--ex:scripts-end--><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" /></form>
+</body>
+</html>
